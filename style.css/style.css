@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .banner-section{
-    background-image: url(../images/banner/banner1.png);
+    background-image: url("../images/banner/banner1.png");
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -55,7 +55,7 @@
     margin-top: 25px;
 }
 .watch{
-    background-image: url(../images/watch.png);
+    background-image: url("../images/watch.png");
     background-repeat: no-repeat;
     width: 70%;
     height: 300px;
@@ -76,7 +76,7 @@
     padding: 10px;
 }
 .sec{
-    background-image: url(/images/gradient3.png);
+    background-image: url("/images/gradient3.png");
     width: 95%;
     height: 300px;
 }
