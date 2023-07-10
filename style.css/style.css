@@ -46,6 +46,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -25px;
 }
 .my-plan-heading{
     text-align: center;
@@ -59,16 +60,9 @@
     width: 70%;
     height: 300px;
     margin: auto;
+    margin-top: -50px;
     margin-bottom: 100px;
-}
-.sec{
-    display: flex;
-    justify-content:left;
-    align-items: center;
-}
-.btn1{
-    padding: 15px;
-    color: red;
+    /* position: relative; */
 }
 .footer{
     padding-top: 15px;
@@ -80,4 +74,21 @@
 }
 .input{
     padding: 10px;
+}
+.sec{
+    background-image: url(/images/gradient3.png);
+    width: 95%;
+    height: 300px;
+}
+.head-1{
+    font-size: 40px;
+    color: white;
+    padding: 35px;
+}
+.btn-1 button{
+    padding: 20px;
+    border-radius: 5px;
+    border-style: none;
+    color: brown;
+    margin-left: 35px;
 }
